@@ -1,0 +1,55 @@
+issues
+0- post id have duplicate 
+   solve it by remove duplicate for all table 
+   
+1- post date ==> contain unvalid date and wrong date format  
+   change data type also format with locale 
+   
+   
+2 - weekday ==> i found 1 result with small lower case so i conver it to capitalize 
+
+
+3- type ==> i found same word with diff style so i made it all capitalize 
+      also i remover all spaces by trim and clean then capitalize cause i saw every word like 3 time 3 styles
+	  
+4- Category i replced null word with uncategorized for better peformance 
+
+
+5- i created new column based on paid column called paid status Sponsored and Organic same facebook kew words for seo 
+   also i didn't want to do it in the orginal column  cause i might use it with dax or musures
+   
+   
+   
+6- likes replace null with 0 so no err with data types number
+
+7- replace null with 0 in a lot of (int type) column by mean mod or median
+
+8- negative value sovled by mulitbly * -1 
+
+9- not all times  | Impressions: ≥ Reach)   i found 8 records that have invalid data 
+	custom column checked for Impressions
+	
+	
+10-  sort by  post date 
+------------------------------------------------------------------------------------------------------
+best decision to make 
+اننا نكتر من real 
+مش بس من photo
+
+
+تعديل جدول النشر بناءً على أفضل المواعيد الاداء 
+
+
+ لازم نزود الاعلانات الممولة لاننا من اول ما عملنا اعلانات مموله الصفحه زادات بشكل كبير
+ 
+اختبار توزيع الميزانية بناءً على النتائج والتكلفة لان التحيليل اثبت ان البوست الممول احسن من العادي وبيجيب تفاعل كبير 
+
+
+تحسين استراتيجية المحتوى حسب التصنيفات الناجحة
+
+
+التركيز على أنواع المحتوى الأعلى أداءً
+ لازم ننشر من نفس الكاتيجوري الي جابت قفزات كبيره في عدد ظهور والريتش ومعدل التفاعل 
+ 
+ 
+	
